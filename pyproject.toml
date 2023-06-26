@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "serverfetch"
+version = "0.1.0"
+description = "A CLI utility for downloading Minecraft server executables."
+authors = ["Your Name <you@example.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+rich = "^13.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
